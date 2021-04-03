@@ -218,7 +218,7 @@ body.menu-active #Header .logo {
 	position: relative;
 }
 #Laptop::before {
-	background: url(../images/improve-business.jpg) no-repeat 0 0;
+	background: url(../images/island.png) no-repeat 0 0;
 	content: "";
 	position: absolute;
 	top: 0;
