@@ -52,20 +52,23 @@
   #BannerSlider .owl-dots {
     bottom: 10px;
   }
-  #Laptop {
+  #Rules {
     text-align: center;
   }
-  #Laptop .laptop-text {
+  #Rules .Rules-text {
     padding-top: 15px;
+	text-align: center;
   }
-  #Laptop .laptop-text h2 {
+  #Rules .Rules-text h2 {
     font-size: 22px;
     margin-bottom: 15px;
+	text-align: center;
   }
-  #Laptop .laptop-text p {
+  #Rules .Rules-text p {
     font-size: 16px;
+	text-align: center;
   }
-  #Laptop .laptop-text a {
+  #Rules .Rules-text a {
     font-size: 14px;
   }
   #About .each-icon .icon-text,
@@ -112,6 +115,11 @@
   #About .title h3 br {
     display: none;
   }
+  #About .title h4 {
+	font: 500 26px/115% 'Open Sans', sans-serif;
+	color: #fff;
+	margin: 0 0 30px;
+}
   #About .title p {
     font-size: 16px;
     margin-bottom: 15px;
@@ -120,16 +128,16 @@
     min-height: 290px;
     margin-bottom: 10px;
   }
-  #Laptop {
+  #Rules {
     padding: 25px 0;
     margin-bottom: 20px;
   }
-  #Laptop::before {
+  #Rules::before {
     background: url(../images/improve-business-ipad.jpg) no-repeat center center;
     width: 100%;
   }
-  #Laptop .laptop-text h2,
-  #Laptop .laptop-text p {
+  #Rules .Rules-text h2,
+  #Rules .Rules-text p {
     color: #fff;
   }
   #Video .video-icon {
@@ -240,13 +248,13 @@
   #Footer .footer-text p {
     font-size: 16px;
   }
-  #Footer .footer-text .email-box {
+  #ContactUs .footer-text .email-box {
     padding-bottom: 40px;
   }
   #Footer .footer-text .copy-right {
     margin-bottom: 25px;
   }
-  #Footer .footer-text .email-box label {
+  #ContactUs .footer-text .email-box label {
     font-size: 16px;
   }
   #Footer .footer-text .copy-right p {
@@ -261,7 +269,7 @@
   #Footer .footer-text .social-share ul li:last-child {
     margin-right: 0;
   }
-  #Footer .footer-text .email-box input {
+  #ContactUs .footer-text .email-box input {
     width: 100%;
   }
   #Footer .footer-text p.designed {
@@ -277,7 +285,7 @@
   #HeroBanner {
     height: 350px;
   }
-  #Laptop .laptop-img img {
+  #Rules .Rules-img img {
     width: 80%;
   }
   #Video {
@@ -315,14 +323,14 @@
   #BannerSlider .banner-text h1 {
     font-size: 32px;
   }
-  #Laptop {
+  #Rules {
     text-align: center;
   }
-  #Laptop .laptop-img img {
+  #Rules .Rules-img img {
     width: 75%;
     margin: 0 auto 20px;
   }
-  #Laptop .laptop-text h2 {
+  #Rules .Rules-text h2 {
     font-size: 28px;
   }
   #About .title h3 {
@@ -354,15 +362,15 @@
   #About .each-icon .icon-wrap i {
     font-size: 50px;
   }
-  #Laptop {
+  #Rules {
     margin-bottom: 25px;
   }
-  #Laptop::before {
+  #Rules::before {
     width: 100%;
-    background: url(../images/island.png) no-repeat center center;
+    /* background: url(../images/island.png) no-repeat center center; */
   }
-  #Laptop .laptop-text h2,
-  #Laptop .laptop-text p {
+  #Rules .Rules-text h2,
+  #Rules .Rules-text p {
     color: #fff;
   }
   #Video .video-icon {
@@ -480,7 +488,7 @@
     position: static;
     transform: none;
   }
-  #Laptop::before {
+  #Rules::before {
     background-position: center center;
     width: 50%;
   }

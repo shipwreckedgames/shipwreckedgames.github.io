@@ -212,35 +212,39 @@ body.menu-active #Header .logo {
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 }
-#Laptop {
+#Rules {
 	padding: 45px 0;
 	background-color: #efefef;
 	position: relative;
 }
-#Laptop::before {
-	background: url(../images/island.png) no-repeat 0 0;
+#Rules::before {
+	/* background: url(../images/island.png) no-repeat 0 0; */
 	content: "";
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 50%;
+	width: 100%;
 	height: 100%;
 }
-#Laptop .laptop-text {
+#Rules .Rules-text {
 	padding-left: 12px;
+	text-align: center;
 }
-#Laptop .laptop-text h2 {
+#Rules .Rules-text h2 {
 	font: 500 26px/115% 'Open Sans', sans-serif;
 	color: #333;
 	margin: 0 0 30px;
+	text-align: center;
 }
-#Laptop .laptop-text p {
+#Rules .Rules-text p {
 	font: 400 16px/155% 'Open Sans', sans-serif;
 	color: #333;
 	margin: 0 0 30px;
+	text-align: center;
 }
-#Laptop .laptop-text a {
+#Rules .Rules-text a {
 	display: inline-block;
+	text-align: center;
 	padding: 10px 30px;
 	background-color: #19af83;
 	border-radius: 28px;
@@ -249,7 +253,7 @@ body.menu-active #Header .logo {
 	border: 1px solid #19af83;
 	font: 400 16px/115% 'Open Sans', sans-serif;
 }
-#Laptop .laptop-text a:hover {
+#Rules .Rules-text a:hover {
 	transition: all 0.25s ease 0s;
 	background-color: #fff;
 	color: #19af83;
@@ -264,6 +268,11 @@ body.menu-active #Header .logo {
 }
 #About .title h3 {
 	font: 500 26px/115% 'Open Sans', sans-serif;
+	color: #333;
+	margin: 0 0 30px;
+}
+#About .title h4 {
+	font: 500 36px/115% 'Open Sans', sans-serif;
 	color: #333;
 	margin: 0 0 30px;
 }
@@ -664,48 +673,48 @@ body.menu-active #Header .logo {
 #Footer .footer-text p.designed a:hover {
 	color: #29e4ad;
 }
-#Footer .footer-text .email-box {
+#ContactUs .footer-text .email-box {
 	padding-bottom: 100px;
 }
-#Footer .footer-text .email-box form {
+#ContactUs .footer-text .email-box form {
 	display: inline-block;
 	position: relative;
 	z-index: 9;
 }
-#Footer .footer-text .email-box label {
+#ContactUs .footer-text .email-box label {
 	position: absolute;
 	top: 0;
 	left: 0;
 	font: 400 16px/155% 'Open Sans', sans-serif;
 	text-align: left;
-	color: #fff;
+	color: #333;
 	transition: top 0.2s ease-in-out;
 	z-index: -1;
 }
-#Footer .footer-text .email-box input:focus ~ label, #Footer .footer-text .email-box .not-empty ~ label {
+#ContactUs .footer-text .email-box input:focus ~ label, #ContactUs .footer-text .email-box .not-empty ~ label {
 	top: -18px;
   font: 400 14px/155% 'Open Sans', sans-serif;
-  color:#19af83;
+  color:#333;
   transition: top 0.2s ease-in-out;
 }
-#Footer .footer-text .email-box input {
+#ContactUs .footer-text .email-box input {
 	border-right: none;
 	border-left: none;
 	border-top: none;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #333;
 	background: transparent;
 	font: 400 16px/115% 'Open Sans', sans-serif;
-	color: #fff;
+	color: #333;
 	padding: 5px 40px 5px 0;
 	transition: all 0.25s ease 0s;
 	box-shadow: none;
 	outline: none;
 }
-#Footer .footer-text .email-box input:focus {
+#ContactUs .footer-text .email-box input:focus {
 	border-bottom: 1px solid #19af83;
 	transition: all 0.25s ease 0s;
 }
-#Footer .footer-text .email-box input.submit {
+#ContactUs .footer-text .email-box input.submit {
 	background: url(../images/email-box-arrow.png) no-repeat 0 5px;
 	padding: 0px 4px;
 	border: 0;
